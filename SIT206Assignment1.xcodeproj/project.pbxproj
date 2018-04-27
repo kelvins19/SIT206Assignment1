@@ -12,6 +12,8 @@
 		F4AA1D622069E4A4008EDD50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AA1D602069E4A4008EDD50 /* Main.storyboard */; };
 		F4AA1D642069E4A4008EDD50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4AA1D632069E4A4008EDD50 /* Assets.xcassets */; };
 		F4AA1D672069E4A4008EDD50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4AA1D652069E4A4008EDD50 /* LaunchScreen.storyboard */; };
+		F4EA559B2070B1D2005440CA /* dirtybullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F4EA559A2070B1D1005440CA /* dirtybullet.mp3 */; };
+		F4EA559E2070B831005440CA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4EA559D2070B831005440CA /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F4AA1D632069E4A4008EDD50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4AA1D662069E4A4008EDD50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4AA1D682069E4A4008EDD50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EA559A2070B1D1005440CA /* dirtybullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dirtybullet.mp3; sourceTree = "<group>"; };
+		F4EA559D2070B831005440CA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EA559E2070B831005440CA /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				F4AA1D5B2069E4A4008EDD50 /* SIT206Assignment1 */,
 				F4AA1D5A2069E4A4008EDD50 /* Products */,
+				F4EA559C2070B831005440CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +64,19 @@
 				F4AA1D5E2069E4A4008EDD50 /* ViewController.swift */,
 				F4AA1D602069E4A4008EDD50 /* Main.storyboard */,
 				F4AA1D632069E4A4008EDD50 /* Assets.xcassets */,
+				F4EA559A2070B1D1005440CA /* dirtybullet.mp3 */,
 				F4AA1D652069E4A4008EDD50 /* LaunchScreen.storyboard */,
 				F4AA1D682069E4A4008EDD50 /* Info.plist */,
 			);
 			path = SIT206Assignment1;
+			sourceTree = "<group>";
+		};
+		F4EA559C2070B831005440CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA559D2070B831005440CA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +140,7 @@
 			files = (
 				F4AA1D672069E4A4008EDD50 /* LaunchScreen.storyboard in Resources */,
 				F4AA1D642069E4A4008EDD50 /* Assets.xcassets in Resources */,
+				F4EA559B2070B1D2005440CA /* dirtybullet.mp3 in Resources */,
 				F4AA1D622069E4A4008EDD50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
